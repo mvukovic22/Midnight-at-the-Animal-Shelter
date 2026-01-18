@@ -1,0 +1,59 @@
+! Blurb file created by Inform Inform 10.1.2 (build )
+
+status "C:\Program Files\Inform\Internal\HTML\CblorbModel.html" "C:\Users\vukov\Desktop\DP\projekt\predaja\Midnight at the Animal Shelter.inform\Build\StatusCblorb.html"
+
+
+! Identification
+
+project folder "C:\Users\vukov\Desktop\DP\projekt\predaja\Midnight at the Animal Shelter.inform"
+release to "C:\Users\vukov\Desktop\DP\projekt\predaja\Midnight at the Animal Shelter.materials\Release"
+
+! Blorb instructions
+
+storyfile leafname "Midnight at the Animal Shelter.gblorb"
+storyfile "C:\Users\vukov\Desktop\DP\projekt\predaja\Midnight at the Animal Shelter.inform\Build\output.ulx" include
+ifiction "C:\Users\vukov\Desktop\DP\projekt\predaja\Midnight at the Animal Shelter.inform\Metadata.iFiction" include
+cover "C:\Program Files\Inform\Internal\Miscellany\DefaultCover.jpg"
+picture 1 "C:\Program Files\Inform\Internal\Miscellany\DefaultCover.jpg"
+release file "C:\Program Files\Inform\Internal\Miscellany\DefaultCover.jpg"
+release file "C:\Program Files\Inform\Internal\Miscellany\Small Cover.jpg"
+
+! Placeholder variables
+
+placeholder [IFID] = "C5AEE487-0465-4924-AF9F-0C33F30CD96D"
+placeholder [RELEASE] = "1"
+placeholder [YEAR] = "2026"
+placeholder [TITLE] = "Midnight at the Animal Shelter"
+placeholder [AUTHOR] = "Mirta Vukovic"
+placeholder [BLURB] = "A work of interactive fiction."
+
+! Other material to release
+
+
+! Website instructions
+
+placeholder [ENCODEDSTORYFILE] = "Midnight at the Animal Shelter.gblorb.js"
+template path "C:\Users\vukov\Desktop\DP\projekt\predaja\Midnight at the Animal Shelter.materials\Templates"
+template path "C:\Users\vukov\Desktop\DP\projekt\predaja\Midnight at the Animal Shelter.materials\Templates"
+template path "C:\Users\vukov\Documents\Inform\Templates"
+template path "C:\Program Files\Inform\Internal\Templates"
+placeholder [INTERPRETERSCRIPTS] = " "
+interpreter "Quixe" "g"
+base64 "C:\Users\vukov\Desktop\DP\projekt\predaja\Midnight at the Animal Shelter.inform\Build\output.ulx" to "C:\Users\vukov\Desktop\DP\projekt\predaja\Midnight at the Animal Shelter.materials\Release\interpreter\Midnight at the Animal Shelter.gblorb.js"
+
+! Website instructions
+
+template path "C:\Users\vukov\Desktop\DP\projekt\predaja\Midnight at the Animal Shelter.materials\Templates"
+template path "C:\Users\vukov\Desktop\DP\projekt\predaja\Midnight at the Animal Shelter.materials\Templates"
+template path "C:\Users\vukov\Documents\Inform\Templates"
+template path "C:\Program Files\Inform\Internal\Templates"
+css
+website "Standard"
+status instruction ||&nbsp;<a href="source:story.ni#line3"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status alternative ||Using 'Release along with cover art', to provide something more distinctive than the default artwork above&nbsp;<a href=inform:/doc401.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a file of "Such-and-Such" called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc399.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc410.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc409.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc410.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory booklet'&nbsp;<a href=inform:/doc402.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory postcard'&nbsp;<a href=inform:/doc402.html><img border=0 src=inform:/doc_images/help.png></a>||
